@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup 
 import pandas
-from openpyxl import Workbookg
+import  openpyxl 
 
 url='https://www.honarticket.com/'
 req=requests.get(url)
